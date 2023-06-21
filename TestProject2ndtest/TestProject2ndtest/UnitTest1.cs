@@ -10,7 +10,14 @@ namespace TestProject2ndtest
         [Test]
         public void Test1()
         {
-            Assert.Pass();
+            int a = 1;
+            int b = 1;
+
+            // Act
+            int sum = a + b;
+
+            // Assert
+            Assert.AreEqual(2, sum);
         }
     }
 }
